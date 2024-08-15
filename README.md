@@ -1,3 +1,48 @@
+# Design of Deep Reinforcement Learning Approach for Traffic Signal Control at Three-way Crossroads
+
+This repository presents the following article in Python:
+
+
+Thanh Nguyen Canh, Anh Pham Tuan, Xiem HoangVan, "**Design of Deep Reinforcement Learning Approach for Traffic Signal Control at Three-way Crossroads**," *Under Review*. 
+[[**Research** *Square*](https://www.researchsquare.com/article/rs-3128875/v1)] [[Citation](#citation)]
+
+## Citation
+```
+@article{canh2023design,
+  title={Design of Deep Reinforcement Learning Approach for Traffic Signal Control at Three-way Crossroads},
+  author={Canh, Thanh Nguyen and Tuan, Anh Pham and HoangVan, Xiem},
+  year={2023}
+}
+```
+
+## Oveview
+<p align="center"><img src="docs/DRL.png" alt="" width="100%"/></p>
+
+## Installation
+```
+git clone git@github.com:duynamrcv/mppdc.git
+cd mppdc
+pip install -r requirement.txt
+```
+
+## Demo
+The proposed method is in `MPPDC` directory. To run the simulation, please run:
+```
+cd Proposed
+python3 main.py
+```
+The data will be saved in `data.txt` file. To view animation, please run:
+```
+python3 animation.py
+```
+
+For the comparisons, we implement two approaches named *Behavior-based Deformation Control (BDC)* and *Model Prediction-based Formation Control (MPFC)*
+## Results
+| Scenario 1 | Scenario 2 |
+| :---:      |     :---:  |
+| <img src="results/results_scen1.gif" alt="" width="100%"/> | <img src="results/results_scen2.gif" alt="" width="100%"/> |
+
+
 <div align="center">
     <h2>Traffic Light Reinforcement Learning Environment</h2>
     <blockquote> Traffic light environment for Reinforcement Learning with Unity</blockquote>
