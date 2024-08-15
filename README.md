@@ -18,14 +18,20 @@ Thanh Nguyen Canh, Anh Pham Tuan, Xiem HoangVan, "**Design of Deep Reinforcement
 ## Oveview
 <p align="center"><img src="docs/DRL.png" alt="" width="100%"/></p>
 
-<p align="center"><img src="docs/numberVehicles.eps" alt="" width="100%"/></p>
+## Requirements
+- Unity: 2020.3.33f1
+- ML-Agents: 0.28.0
+- C#: 8.0
+- Python: 3.9.6
+- PyTorch: 1.12.1
 
 ## Installation
 ```
-git clone git@github.com:duynamrcv/mppdc.git
-cd mppdc
-pip install -r requirement.txt
+git clone https://github.com/thanhnguyencanh/DRL4Three-wayTSC
+cd DRL4Three-wayTSC
+pip3 install -r requirement.txt
 ```
+
 
 ## Demo
 The proposed method is in `MPPDC` directory. To run the simulation, please run:
