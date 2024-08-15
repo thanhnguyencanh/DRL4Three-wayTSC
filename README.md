@@ -18,6 +18,8 @@ Thanh Nguyen Canh, Anh Pham Tuan, Xiem HoangVan, "**Design of Deep Reinforcement
 ## Oveview
 <p align="center"><img src="docs/DRL.png" alt="" width="100%"/></p>
 
+<p align="center"><img src="docs/numberVehicles.eps" alt="" width="100%"/></p>
+
 ## Installation
 ```
 git clone git@github.com:duynamrcv/mppdc.git
