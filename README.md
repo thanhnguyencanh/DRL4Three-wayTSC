@@ -15,11 +15,13 @@ Thanh Nguyen Canh, Anh Pham Tuan, Xiem HoangVan, "**Design of Deep Reinforcement
 }
 ```
 
+- [Overview](#overview)
 - [Overview](#1-requirements)
-- [2. Technology](#2-technology)
+- [2. Installation](#2-installation)
 - [3. Design](#3-design)
-- [4. Branch](#4-branch)
-- [5. Reference](#5-reference)
+- [4. Results](#3-results)
+- [5. Branch](#5-branch)
+- [6. Reference](#6-reference)
 
 ## Oveview
 <p align="center"><img src="docs/DRL.png" alt="" width="100%"/></p>
@@ -62,23 +64,16 @@ pip3 install -r requirement.txt
 | Scenario 1 | Scenario 2 |
 | :---:      |     :---:  |
 | <img src="docs/low_traffic.png" alt="" width="100%"/> | <img src="docs/high_traffic.png" alt="" width="100%"/> |
+| <img src="docs/numberVerhicle.png" alt="" width="100%"/> | <img src="docs/avg_rewards.png" alt="" width="100%"/> |
 
 
 
-
-
-## 1. Snapshot
-![image](https://user-images.githubusercontent.com/50461553/198821317-ee66b91b-0606-4161-82d2-16294be7eb4f.png)
-
-
-
-
-## 4. Branch
+## 5. Branch
 There are 2 branches for 2 versions of the environment:
 - Reinforcement Learning: https://github.com/Spencer266/T-Juntion/tree/multi
 - Fixed-time: https://github.com/Spencer266/T-Juntion/tree/linear
 
 **Note**: The second one is used for comparing Reinforcement Learning and Fixed-time method. However, it can acts as a standalone own project.
 
-## 5. Reference
+## 6. Reference
 - ML-Agents: https://github.com/Unity-Technologies/ml-agents
